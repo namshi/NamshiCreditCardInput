@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/mansourx/Documents/GitHub/namshi-android/namshi-credit-card-input/build/intermediates/res/merged/debug/interpolator-v21/mtrl_linear_out_slow_in.xml",
+        "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/3713b17ed0853eeb80668b80298410c0/material-1.2.1/res/interpolator-v21/mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/mansourx/Documents/GitHub/namshi-android/namshi-credit-card-input/build/intermediates/res/merged/debug/interpolator-v21/mtrl_fast_out_linear_in.xml",
+        "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/3713b17ed0853eeb80668b80298410c0/material-1.2.1/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "/Users/mansourx/Documents/GitHub/namshi-android/namshi-credit-card-input/build/intermediates/res/merged/debug/interpolator-v21/mtrl_fast_out_slow_in.xml",
+        "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/3713b17ed0853eeb80668b80298410c0/material-1.2.1/res/interpolator-v21/mtrl_fast_out_slow_in.xml"
+    }
+]

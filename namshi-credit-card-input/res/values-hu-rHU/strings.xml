@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="acc_label_card_number">Kártyaszám</string>
+    <string name="acc_label_card_number_node">%s, kártyaszám</string>
+    <string name="acc_label_cvc_node">%s, CVC-kód</string>
+    <string name="acc_label_expiry_date">Lejárati dátum</string>
+    <string name="acc_label_expiry_date_node">%s, lejárati dátum</string>
+    <string name="expiry_date_hint">ÉÉ/HH</string>
+    <string name="invalid_card_number">Kártyaszáma érvénytelen.</string>
+    <string name="invalid_cvc">Kártyájának biztonsági kódja érvénytelen.</string>
+    <string name="invalid_expiry_year">Kártyájának lejárati éve érvénytelen.</string>
+</resources>

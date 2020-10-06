@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="acc_label_card_number">Kartennummer</string>
+    <string name="acc_label_card_number_node">%s, Kartennummer</string>
+    <string name="acc_label_cvc_node">%s, Prüfziffer</string>
+    <string name="acc_label_expiry_date">Ablaufdatum</string>
+    <string name="acc_label_expiry_date_node">%s, Ablaufdatum</string>
+    <string name="expiry_date_hint">MM/JJ</string>
+    <string name="invalid_card_number">Die Kartennummer ist ungültig.</string>
+    <string name="invalid_cvc">Die Prüfziffer Ihrer Karte ist falsch.</string>
+    <string name="invalid_expiry_year">Das Ablaufjahr der Karte ist ungültig.</string>
+</resources>

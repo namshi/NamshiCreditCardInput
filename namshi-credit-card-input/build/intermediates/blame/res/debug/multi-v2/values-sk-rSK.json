@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mansourx/Documents/GitHub/namshi-android/namshi-credit-card-input/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk-rSK/values-sk-rSK.xml",
+            "map": [
+                {
+                    "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/7acc7b20719a73fd2ff65c7126e2e94a/jetified-stripe-3ds2-android-4.1.0/res/values-sk-rSK/values-sk-rSK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,187,255,311,397,499,566,634,698,773",
+                        "endColumns": "67,63,67,55,85,101,66,67,63,74,68",
+                        "endOffsets": "118,182,250,306,392,494,561,629,693,768,837"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "713,781,845,913,969,1055,1157,1224,1292,1356,1431",
+                        "endColumns": "67,63,67,55,85,101,66,67,63,74,68",
+                        "endOffsets": "776,840,908,964,1050,1152,1219,1287,1351,1426,1495"
+                    }
+                },
+                {
+                    "source": "/Users/mansourx/Documents/GitHub/namshi-android/namshi-credit-card-input/res/values-sk-rSK/strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,117,188,243,319,404,455,534,616",
+                        "endColumns": "61,70,54,75,84,50,78,81,96",
+                        "endOffsets": "112,183,238,314,399,450,529,611,708"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mansourx/Documents/GitHub/namshi-android/namshi-credit-card-input/build/intermediates/res/merged/debug/values-sk-rSK/values-sk-rSK.xml",
+            "map": [
+                {
+                    "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/7acc7b20719a73fd2ff65c7126e2e94a/jetified-stripe-3ds2-android-4.1.0/res/values-sk-rSK/values-sk-rSK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,187,255,311,397,499,566,634,698,773",
+                        "endColumns": "67,63,67,55,85,101,66,67,63,74,68",
+                        "endOffsets": "118,182,250,306,392,494,561,629,693,768,837"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "713,781,845,913,969,1055,1157,1224,1292,1356,1431",
+                        "endColumns": "67,63,67,55,85,101,66,67,63,74,68",
+                        "endOffsets": "776,840,908,964,1050,1152,1219,1287,1351,1426,1495"
+                    }
+                },
+                {
+                    "source": "/Users/mansourx/Documents/GitHub/namshi-android/namshi-credit-card-input/res/values-sk-rSK/strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,117,188,243,319,404,455,534,616",
+                        "endColumns": "61,70,54,75,84,50,78,81,96",
+                        "endOffsets": "112,183,238,314,399,450,529,611,708"
+                    }
+                }
+            ]
+        }
+    ]
+}

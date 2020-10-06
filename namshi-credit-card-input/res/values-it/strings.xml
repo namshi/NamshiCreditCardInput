@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="acc_label_card_number">Numero carta</string>
+    <string name="acc_label_card_number_node">%s, Numero carta</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">Data di scadenza</string>
+    <string name="acc_label_expiry_date_node">%s, Data di scadenza</string>
+    <string name="expiry_date_hint">MM/AA</string>
+    <string name="invalid_card_number">Il numero della carta non è valido.</string>
+    <string name="invalid_cvc">Il codice di sicurezza della carta non è valido.</string>
+    <string name="invalid_expiry_year">L\'anno di scadenza della carta non è valido.</string>
+</resources>

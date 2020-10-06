@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acc_label_card_number">Kartes numurs</string>
+    <string name="acc_label_card_number_node">%s, kartes numurs</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">Derīguma termiņš</string>
+    <string name="acc_label_expiry_date_node">%s, derīguma termiņš</string>
+    <string name="expiry_date_hint">MM/GG</string>
+    <string name="invalid_card_number">Kartes numurs nav derīgs.</string>
+    <string name="invalid_cvc">Kartes drošības kods nav derīgs.</string>
+    <string name="invalid_expiry_year">Kartes derīguma termiņa gads nav derīgs.</string>
+    <string name="stripe_3ds2_brand_amex">American Express</string>
+    <string name="stripe_3ds2_brand_discover">Discover</string>
+    <string name="stripe_3ds2_brand_mastercard">Mastercard</string>
+    <string name="stripe_3ds2_brand_visa">Visa</string>
+    <string name="stripe_3ds2_bzv_issuer_image_description">Izsniedzēja attēls</string>
+    <string name="stripe_3ds2_bzv_payment_system_image_description">Maksājumu sistēmas attēls</string>
+    <string name="stripe_3ds2_czv_whitelist_no_label">Nē</string>
+    <string name="stripe_3ds2_czv_whitelist_yes_label">Jā</string>
+    <string name="stripe_3ds2_hzv_cancel_label">Atcelt</string>
+    <string name="stripe_3ds2_hzv_header_label">Droša norēķināšanās</string>
+    <string name="stripe_3ds2_processing">Apstrādā\u2026</string>
+</resources>

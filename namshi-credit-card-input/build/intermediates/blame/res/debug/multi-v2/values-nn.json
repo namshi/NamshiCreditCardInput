@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mansourx/Documents/GitHub/namshi-android/namshi-credit-card-input/build/intermediates/res/merged/debug/values-nn/values-nn.xml",
+            "map": [
+                {
+                    "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/7acc7b20719a73fd2ff65c7126e2e94a/jetified-stripe-3ds2-android-4.1.0/res/values-nn/values-nn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,187,255,311,398,500,567,634,698,769",
+                        "endColumns": "67,63,67,55,86,101,66,66,63,70,66",
+                        "endOffsets": "118,182,250,306,393,495,562,629,693,764,831"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mansourx/Documents/GitHub/namshi-android/namshi-credit-card-input/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nn/values-nn.xml",
+            "map": [
+                {
+                    "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/7acc7b20719a73fd2ff65c7126e2e94a/jetified-stripe-3ds2-android-4.1.0/res/values-nn/values-nn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,187,255,311,398,500,567,634,698,769",
+                        "endColumns": "67,63,67,55,86,101,66,66,63,70,66",
+                        "endOffsets": "118,182,250,306,393,495,562,629,693,764,831"
+                    }
+                }
+            ]
+        }
+    ]
+}

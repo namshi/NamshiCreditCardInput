@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="acc_label_card_number">カード番号</string>
+    <string name="acc_label_card_number_node">%s、カード番号</string>
+    <string name="acc_label_cvc_node">%s、セキュリティコード</string>
+    <string name="acc_label_expiry_date">有効期限</string>
+    <string name="acc_label_expiry_date_node">%s、有効期限</string>
+    <string name="expiry_date_hint">MM/YY</string>
+    <string name="invalid_card_number">カードの番号が無効です。</string>
+    <string name="invalid_cvc">カードのセキュリティコードが無効です。</string>
+    <string name="invalid_expiry_year">カードの有効期限の年が無効です。</string>
+</resources>

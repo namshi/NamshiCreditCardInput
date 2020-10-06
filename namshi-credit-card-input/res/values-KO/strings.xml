@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="acc_label_card_number">카드 번호</string>
+    <string name="acc_label_card_number_node">%s, 카드 번호</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">만료 날짜</string>
+    <string name="acc_label_expiry_date_node">%s, 만료 날짜</string>
+    <string name="expiry_date_hint">MM/YY</string>
+    <string name="invalid_card_number">카드 번호가 잘못되었습니다.</string>
+    <string name="invalid_cvc">카드의 보안 코드가 유효하지 않습니다.</string>
+    <string name="invalid_expiry_year">카드의 만료 연도가 유효하지 않습니다.</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="acc_label_card_number">Číslo karty</string>
+    <string name="acc_label_card_number_node">%s, číslo karty</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">Datum konce platnosti</string>
+    <string name="acc_label_expiry_date_node">%s, datum konce platnosti</string>
+    <string name="expiry_date_hint">MM/RR</string>
+    <string name="invalid_card_number">Číslo vaší karty je neplatné.</string>
+    <string name="invalid_cvc">Bezpečnostní kód vaší karty je neplatný.</string>
+    <string name="invalid_expiry_year">Rok konce platnosti vaší karty je neplatný.</string>
+</resources>

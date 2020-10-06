@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acc_label_card_number">Številka kartice</string>
+    <string name="acc_label_card_number_node">%s, številka kartice</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">Datum poteka</string>
+    <string name="acc_label_expiry_date_node">%s, datum poteka</string>
+    <string name="expiry_date_hint">MM/LL</string>
+    <string name="invalid_card_number">Številka vaše kartice ni veljavna.</string>
+    <string name="invalid_cvc">Varnostna koda vaše kartice ni veljavna.</string>
+    <string name="invalid_expiry_year">Leto poteka vaše kartice ni veljavno.</string>
+    <string name="stripe_3ds2_brand_amex">American Express</string>
+    <string name="stripe_3ds2_brand_discover">Discover</string>
+    <string name="stripe_3ds2_brand_mastercard">Mastercard</string>
+    <string name="stripe_3ds2_brand_visa">Visa</string>
+    <string name="stripe_3ds2_bzv_issuer_image_description">Slika izdajatelja</string>
+    <string name="stripe_3ds2_bzv_payment_system_image_description">Slika plačilnega sistema</string>
+    <string name="stripe_3ds2_czv_whitelist_no_label">Ne</string>
+    <string name="stripe_3ds2_czv_whitelist_yes_label">Da</string>
+    <string name="stripe_3ds2_hzv_cancel_label">Prekliči</string>
+    <string name="stripe_3ds2_hzv_header_label">Varen zaključek nakupa</string>
+    <string name="stripe_3ds2_processing">Obdelovanje \u2026</string>
+</resources>

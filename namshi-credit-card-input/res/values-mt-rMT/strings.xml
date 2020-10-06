@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="acc_label_card_number">In-numru tal-kard</string>
+    <string name="acc_label_card_number_node">%s, In-numru tal-kard</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">Id-data tal-iskadenza</string>
+    <string name="acc_label_expiry_date_node">%s, Data tal-iskadenza</string>
+    <string name="expiry_date_hint">XX/SS</string>
+    <string name="invalid_card_number">In-numru tal-kard tiegħek mhux validu.</string>
+    <string name="invalid_cvc">Il-kodiċi tas-sigurtà tal-kard tiegħek mhux validu.</string>
+    <string name="invalid_expiry_year">Is-sena tal-iskadenza tal-kard tiegħek mhijiex valida.</string>
+</resources>

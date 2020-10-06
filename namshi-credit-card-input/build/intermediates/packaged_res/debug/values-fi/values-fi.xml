@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acc_label_card_number">Kortin numero</string>
+    <string name="acc_label_card_number_node">%s, kortin numero</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">Erääntymispäivä</string>
+    <string name="acc_label_expiry_date_node">%s, erääntymispäivä</string>
+    <string name="expiry_date_hint">KK/VV</string>
+    <string name="invalid_card_number">Kortin numero ei kelpaa.</string>
+    <string name="invalid_cvc">Kortin turvakoodi ei kelpaa.</string>
+    <string name="invalid_expiry_year">Kortin voimassaolovuosi ei kelpaa.</string>
+</resources>

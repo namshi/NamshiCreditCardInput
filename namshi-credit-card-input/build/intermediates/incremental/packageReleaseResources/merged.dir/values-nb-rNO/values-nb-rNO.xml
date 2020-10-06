@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acc_label_card_number">Kortnummer</string>
+    <string name="acc_label_card_number_node">%s, kortnummer</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">Utløpsdato</string>
+    <string name="acc_label_expiry_date_node">%s, utløpsdato</string>
+    <string name="expiry_date_hint">MM/ÅÅ</string>
+    <string name="invalid_card_number">Kortnummeret er ugyldig.</string>
+    <string name="invalid_cvc">Kortets sikkerhetskode er ugyldig.</string>
+    <string name="invalid_expiry_year">Kortets utløpsår er ugyldig.</string>
+</resources>

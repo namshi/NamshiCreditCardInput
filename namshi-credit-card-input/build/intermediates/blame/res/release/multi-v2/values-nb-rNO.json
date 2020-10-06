@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mansourx/Documents/GitHub/StripePayment/namshi-credit-card-input/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-nb-rNO/values-nb-rNO.xml",
+            "map": [
+                {
+                    "source": "/Users/mansourx/Documents/GitHub/StripePayment/namshi-credit-card-input/res/values-nb-rNO/strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,186,241,302,372,423,496,571",
+                        "endColumns": "60,69,54,60,69,50,72,74,76",
+                        "endOffsets": "111,181,236,297,367,418,491,566,643"
+                    }
+                },
+                {
+                    "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/9d06f090f74a66803dbfcd7295e1b6e0/jetified-stripe-3ds2-android-4.1.0/res/values-nb-rNO/values-nb-rNO.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,187,255,311,394,496,563,630,694,769",
+                        "endColumns": "67,63,67,55,82,101,66,66,63,74,66",
+                        "endOffsets": "118,182,250,306,389,491,558,625,689,764,831"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "648,716,780,848,904,987,1089,1156,1223,1287,1362",
+                        "endColumns": "67,63,67,55,82,101,66,66,63,74,66",
+                        "endOffsets": "711,775,843,899,982,1084,1151,1218,1282,1357,1424"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mansourx/Documents/GitHub/StripePayment/namshi-credit-card-input/build/intermediates/res/merged/release/values-nb-rNO/values-nb-rNO.xml",
+            "map": [
+                {
+                    "source": "/Users/mansourx/Documents/GitHub/StripePayment/namshi-credit-card-input/res/values-nb-rNO/strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,186,241,302,372,423,496,571",
+                        "endColumns": "60,69,54,60,69,50,72,74,76",
+                        "endOffsets": "111,181,236,297,367,418,491,566,643"
+                    }
+                },
+                {
+                    "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/9d06f090f74a66803dbfcd7295e1b6e0/jetified-stripe-3ds2-android-4.1.0/res/values-nb-rNO/values-nb-rNO.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,187,255,311,394,496,563,630,694,769",
+                        "endColumns": "67,63,67,55,82,101,66,66,63,74,66",
+                        "endOffsets": "118,182,250,306,389,491,558,625,689,764,831"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "648,716,780,848,904,987,1089,1156,1223,1287,1362",
+                        "endColumns": "67,63,67,55,82,101,66,66,63,74,66",
+                        "endOffsets": "711,775,843,899,982,1084,1151,1218,1282,1357,1424"
+                    }
+                }
+            ]
+        }
+    ]
+}

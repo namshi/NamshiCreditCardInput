@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="stripe_card_widget_progress_background">#4F566B</color>
+    <color name="stripe_card_widget_progress_foreground">#ffffffcc</color>
+    <color name="stripe_error_text_dark_theme">#ffe85746</color>
+    <color name="stripe_error_text_light_theme">#ffeb1c26</color>
+    <dimen name="card_brand_view_height">21dp</dimen>
+    <dimen name="card_brand_view_width">32dp</dimen>
+    <dimen name="ciw_stripe_edit_text_size">18sp</dimen>
+    <dimen name="stripe_card_cvc_initial_margin">1000dp</dimen>
+    <dimen name="stripe_card_expiry_initial_margin">200dp</dimen>
+    <dimen name="stripe_card_icon_padding">12dp</dimen>
+    <dimen name="stripe_card_number_text_input_layout_progress_start_margin">25dp</dimen>
+    <dimen name="stripe_card_number_text_input_layout_progress_top_margin">10dp</dimen>
+    <dimen name="stripe_card_widget_min_width">360dp</dimen>
+    <dimen name="stripe_card_widget_progress_size">12dp</dimen>
+    <item name="stripe_add_payment_method_footer" type="id"/>
+    <item name="stripe_add_payment_method_form" type="id"/>
+    <item name="stripe_default_reader_id" type="id"/>
+    <item name="stripe_payment_methods_add_card" type="id"/>
+    <item name="stripe_payment_methods_add_fpx" type="id"/>
+    <integer name="stripe_card_widget_progress_fade_in_duration">600</integer>
+    <integer name="stripe_card_widget_progress_fade_out_duration">300</integer>
+    <string name="acc_label_card_number">Card number</string>
+    <string name="acc_label_card_number_node">%s, Card number</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">Expiration date</string>
+    <string name="acc_label_expiry_date_node">%s, Expiration date</string>
+    <string name="card_number_hint">4242 4242 4242 4242</string>
+    <string name="cvc_amex_hint">CVV</string>
+    <string name="cvc_number_hint">CVC</string>
+    <string name="expiry_date_hint">MM/YY</string>
+    <string name="invalid_card_number">Your card\'s number is invalid.</string>
+    <string name="invalid_cvc">Your card\'s security code is invalid.</string>
+    <string name="invalid_expiry_year">Your card\'s expiration year is invalid.</string>
+    <style name="Stripe.Base.CardInputWidget.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">@dimen/ciw_stripe_edit_text_size</item>
+    </style>
+    <style name="Stripe.Base.CardInputWidget.TextInputLayout" parent="Widget.Design.TextInputLayout">
+    </style>
+    <style name="Stripe.CardInputWidget.EditText" parent="Stripe.Base.CardInputWidget.EditText"/>
+    <style name="Stripe.CardInputWidget.TextInputLayout" parent="Stripe.Base.CardInputWidget.TextInputLayout"/>
+    <style name="StripeDefaultTheme"/>
+    <declare-styleable name="BecsDebitWidget">
+        <attr format="string" name="companyName"/>
+    </declare-styleable>
+    <declare-styleable name="CardInputView">
+        <attr format="string" name="cardHintText"/>
+        <attr format="color" name="cardTint"/>
+        <attr format="color" name="cardTextErrorColor"/>
+        <attr name="android:focusedByDefault"/>
+    </declare-styleable>
+</resources>

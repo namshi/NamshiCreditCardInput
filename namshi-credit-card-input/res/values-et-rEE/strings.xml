@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="acc_label_card_number">Kaardinumber</string>
+    <string name="acc_label_card_number_node">%s, kaardinumber</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">Aegumiskuupäev</string>
+    <string name="acc_label_expiry_date_node">%s, aegumiskuupäev</string>
+    <string name="expiry_date_hint">KK/AA</string>
+    <string name="invalid_card_number">Kaardi number on kehtetu.</string>
+    <string name="invalid_cvc">Kaardi turvakood on kehtetu.</string>
+    <string name="invalid_expiry_year">Kaardi aegumisaasta on kehtetu.</string>
+</resources>

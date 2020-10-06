@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/mansourx/Documents/GitHub/StripePayment/namshi-credit-card-input/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/789bce343bb009d9def8f492c28e5a1c/material-1.2.1/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/mansourx/Documents/GitHub/StripePayment/namshi-credit-card-input/build/intermediates/res/merged/release/anim-v21/mtrl_bottom_sheet_slide_in.xml",
+        "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/789bce343bb009d9def8f492c28e5a1c/material-1.2.1/res/anim-v21/mtrl_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/mansourx/Documents/GitHub/StripePayment/namshi-credit-card-input/build/intermediates/res/merged/release/anim-v21/fragment_fast_out_extra_slow_in.xml",
+        "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/bda424acbdcccbbf085337c25091abf8/fragment-1.2.5/res/anim-v21/fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "/Users/mansourx/Documents/GitHub/StripePayment/namshi-credit-card-input/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/789bce343bb009d9def8f492c28e5a1c/material-1.2.1/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/mansourx/Documents/GitHub/StripePayment/namshi-credit-card-input/build/intermediates/res/merged/release/anim-v21/mtrl_bottom_sheet_slide_out.xml",
+        "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/789bce343bb009d9def8f492c28e5a1c/material-1.2.1/res/anim-v21/mtrl_bottom_sheet_slide_out.xml"
+    }
+]

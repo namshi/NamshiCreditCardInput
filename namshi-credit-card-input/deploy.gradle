@@ -1,0 +1,31 @@
+/*
+ * Based on the example at Chris Banes's repository that allows signing
+ * without manually creating a maven file.
+ *
+ * The original can be found at
+ * https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle
+ */
+
+def isReleaseBuild() {
+    
+}
+
+def getReleaseRepositoryUrl() {
+    }
+
+def getSnapshotRepositoryUrl() {
+}
+def getRepositoryUsername() {
+}
+
+def getRepositoryPassword() {
+}
+
+task androidJavadocs(type: Javadoc) {
+}
+
+task androidJavadocsJar(type: Jar, dependsOn: androidJavadocs) {
+}
+
+task androidSourcesJar(type: Jar) {
+}

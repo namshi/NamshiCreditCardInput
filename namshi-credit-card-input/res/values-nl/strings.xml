@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="acc_label_card_number">Kaartnummer</string>
+    <string name="acc_label_card_number_node">%s, kaartnummer</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">Vervaldatum</string>
+    <string name="acc_label_expiry_date_node">%s, vervaldatum</string>
+    <string name="expiry_date_hint">MM/JJ</string>
+    <string name="invalid_card_number">Het kaartnummer is ongeldig.</string>
+    <string name="invalid_cvc">De beveiligingscode van je kaart is ongeldig.</string>
+    <string name="invalid_expiry_year">Het vervaljaar van de kaart is ongeldig.</string>
+</resources>

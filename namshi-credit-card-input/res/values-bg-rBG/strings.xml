@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="acc_label_card_number">Номер на картата</string>
+    <string name="acc_label_card_number_node">%s. Номер на картата</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">Дата на валидност</string>
+    <string name="acc_label_expiry_date_node">%s, Дата на валидност</string>
+    <string name="expiry_date_hint">ММ/ГГ</string>
+    <string name="invalid_card_number">Номерът на Вашата карта е невалиден.</string>
+    <string name="invalid_cvc">Кодът за сигурност на Вашата карта е невалиден.</string>
+    <string name="invalid_expiry_year">Годината на валидност на Вашата карта е невалидна.</string>
+</resources>

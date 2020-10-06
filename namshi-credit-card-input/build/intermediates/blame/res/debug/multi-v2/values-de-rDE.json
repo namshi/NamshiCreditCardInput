@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mansourx/Documents/GitHub/namshi-android/namshi-credit-card-input/build/intermediates/res/merged/debug/values-de-rDE/values-de-rDE.xml",
+            "map": [
+                {
+                    "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/7acc7b20719a73fd2ff65c7126e2e94a/jetified-stripe-3ds2-android-4.1.0/res/values-de-rDE/values-de-rDE.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,187,255,311,401,503,571,638,705,780",
+                        "endColumns": "67,63,67,55,89,101,67,66,66,74,73",
+                        "endOffsets": "118,182,250,306,396,498,566,633,700,775,849"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/mansourx/Documents/GitHub/namshi-android/namshi-credit-card-input/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de-rDE/values-de-rDE.xml",
+            "map": [
+                {
+                    "source": "/Users/mansourx/.gradle/caches/transforms-2/files-2.1/7acc7b20719a73fd2ff65c7126e2e94a/jetified-stripe-3ds2-android-4.1.0/res/values-de-rDE/values-de-rDE.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,187,255,311,401,503,571,638,705,780",
+                        "endColumns": "67,63,67,55,89,101,67,66,66,74,73",
+                        "endOffsets": "118,182,250,306,396,498,566,633,700,775,849"
+                    }
+                }
+            ]
+        }
+    ]
+}

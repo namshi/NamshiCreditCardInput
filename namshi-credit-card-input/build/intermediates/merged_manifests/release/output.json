@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "com.namshicardinput.android",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 109,
+        "versionName": "16.0.0",
+        "outputFile": "namshi-credit-card-input-release.aar",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "../../library_manifest/release/AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.namshicardinput.android",
+        "split": ""
+      }
+    }
+  ]
+}

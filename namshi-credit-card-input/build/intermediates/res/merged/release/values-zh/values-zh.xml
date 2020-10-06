@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acc_label_card_number">卡号</string>
+    <string name="acc_label_card_number_node">%s，卡号</string>
+    <string name="acc_label_cvc_node">%s，CVC</string>
+    <string name="acc_label_expiry_date">到期日</string>
+    <string name="acc_label_expiry_date_node">%s，到期日</string>
+    <string name="expiry_date_hint">月月/年年</string>
+    <string name="invalid_card_number">您的卡号无效。</string>
+    <string name="invalid_cvc">您银行卡的安全码无效。</string>
+    <string name="invalid_expiry_year">您银行卡的到期年份无效。</string>
+    <string name="stripe_3ds2_brand_amex">American Express</string>
+    <string name="stripe_3ds2_brand_discover">Discover</string>
+    <string name="stripe_3ds2_brand_mastercard">Mastercard</string>
+    <string name="stripe_3ds2_brand_visa">Visa</string>
+    <string name="stripe_3ds2_bzv_issuer_image_description">发布者映像</string>
+    <string name="stripe_3ds2_bzv_payment_system_image_description">支付系统映像</string>
+    <string name="stripe_3ds2_czv_whitelist_no_label">否</string>
+    <string name="stripe_3ds2_czv_whitelist_yes_label">是</string>
+    <string name="stripe_3ds2_hzv_cancel_label">取消</string>
+    <string name="stripe_3ds2_hzv_header_label">安全的支付流程</string>
+    <string name="stripe_3ds2_processing">正在处理\u2026</string>
+</resources>

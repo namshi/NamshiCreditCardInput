@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acc_label_card_number">Номер карты</string>
+    <string name="acc_label_card_number_node">%s, номер карты</string>
+    <string name="acc_label_cvc_node">%s, код CVV/CVC</string>
+    <string name="acc_label_expiry_date">Окончание срока действия</string>
+    <string name="acc_label_expiry_date_node">%s, дата истечения срока действия</string>
+    <string name="expiry_date_hint">ММ/ГГ</string>
+    <string name="invalid_card_number">Номер карты недействителен.</string>
+    <string name="invalid_cvc">Код CVV/CVC карты недействителен.</string>
+    <string name="invalid_expiry_year">Недопустимый год окончания действия карты.</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acc_label_card_number">Αριθμός κάρτας</string>
+    <string name="acc_label_card_number_node">%s, Αριθμός κάρτας</string>
+    <string name="acc_label_cvc_node">%s, CVC</string>
+    <string name="acc_label_expiry_date">Ημερομηνία λήξης</string>
+    <string name="acc_label_expiry_date_node">%s, Ημερομηνία λήξης</string>
+    <string name="expiry_date_hint">ΜΜ/ΕΕ</string>
+    <string name="invalid_card_number">Ο αριθμός της κάρτας σας δεν είναι έγκυρος.</string>
+    <string name="invalid_cvc">Ο κωδικός ασφαλείας της κάρτας σας δεν είναι έγκυρος.</string>
+    <string name="invalid_expiry_year">Το έτος λήξης της κάρτας σας δεν είναι έγκυρο.</string>
+    <string name="stripe_3ds2_brand_amex">American Express</string>
+    <string name="stripe_3ds2_brand_discover">Discover</string>
+    <string name="stripe_3ds2_brand_mastercard">Mastercard</string>
+    <string name="stripe_3ds2_brand_visa">Visa</string>
+    <string name="stripe_3ds2_bzv_issuer_image_description">Εικόνα εκδότη</string>
+    <string name="stripe_3ds2_bzv_payment_system_image_description">Εικόνα συστήματος πληρωμής</string>
+    <string name="stripe_3ds2_czv_whitelist_no_label">Όχι</string>
+    <string name="stripe_3ds2_czv_whitelist_yes_label">Ναι</string>
+    <string name="stripe_3ds2_hzv_cancel_label">Ακύρωση</string>
+    <string name="stripe_3ds2_hzv_header_label">Ασφαλής ολοκλήρωση αγοράς</string>
+    <string name="stripe_3ds2_processing">Επεξεργασία\u2026</string>
+</resources>

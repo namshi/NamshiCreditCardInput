@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CardInputView">
+        <attr name="cardHintText" format="string" />
+        <attr name="cardTint" format="color"/>
+        <attr name="cardTextErrorColor" format="color"/>
+        <attr name="android:focusedByDefault" />
+    </declare-styleable>
+
+    <declare-styleable name="BecsDebitWidget">
+        <attr name="companyName" format="string" />
+    </declare-styleable>
+</resources>
