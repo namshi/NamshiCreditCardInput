@@ -1,4 +1,0 @@
-style StripeDefaultTheme
-attr cardHintText
-attr cardTextErrorColor
-attr cardTint
