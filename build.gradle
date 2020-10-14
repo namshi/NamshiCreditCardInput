@@ -15,162 +15,18 @@ buildscript {
 
 allprojects {
     ext {
-        compileSdkVersion = 29
-        minSdkVersion = 21
-        targetSdkVersion = 29
-        coreVersion = "1.3.1"
-        appcompatVersion = "1.2.0"
-        recyclerviewVersion = "1.1.0"
-        materialVersion = "1.2.0"
-        annotationVersion = "1.1.0"
-        installReferrerVersion = "2.1"
-        cardviewVersion = "1.0.0"
-        buildToolsVersion = "29.0.3"
-        multidexVersion = "2.0.1"
-        constraintLayoutVersion = "1.1.3"
-        gsonVersion = "2.8.6"
-        butterknifeVersion = "10.2.3"
-        retrofit2Version = "2.9.0"
-        okHttp3Version = "4.9.0"
-        daggerVersion = "2.29.1"
-        adjustSdkVersion = "4.23.0"
-        frescoVersion = "2.3.0"
-        crashlyticsVersion = "17.2.2"
-        awesomeValidationVersion = "4.2"
-        stripeVersion = "15.1.0"
-        loaderViewVersion = "2.0.0"
-        facebookSdkVersion = "7.1.0"
-        countryCodePickerVersion = "2.4.0"
-        cleverTapVersion = "3.8.2"
-        activityVersion = "1.1.0"
-        fragmentVersion = "1.2.5"
-        lifecycleVersion = "2.2.0"
+        buildToolsVersion = "30.0.2"
+        compileSdkVersion = 30
 
-        // Testing-only versions
-        junitVersion = "1.1.1"
-        robolectricVersion = "3.2.2"
-        mockitoVersion = "2.7.1"
-        espressoVersion = "3.1.0"
-        robotiumVersion = "5.2.1"
-        supportTestVersion = "1.1.1"
-        hamcrestVersion = "1.1"
-        jodaTimeVersion = "2.10.6"
-        googleFlexBoxVersion = "2.0.1"
-        facebookShimmer = "0.5.0"
-        firebasePerfVersion = "19.0.8"
-        kotlinCoroutineVersion = "1.3.9"
+        kotlinCoroutinesVersion = '1.3.9'
+        androidLifecycleVersion = '2.2.0'
+        espressoVersion = '3.3.0'
+        ktlintVersion = '0.39.0'
+        materialVersion = '1.2.1'
 
-        playServiceVersions = [
-                base : "17.3.0",
-                serviceAuth : "18.1.0",
-                appIndexing : "19.1.0",
-                analytics : "17.0.0",
-                fcm : "20.2.4",
-                gtm : "17.0.0",
-                location : "17.0.0",
-                maps : "17.0.0",
-                placesCompat : "2.3.0",
-                firebase : "17.4.4",
-                remoteConfig: "19.2.0"
-        ]
+        fragmentVersion = '1.2.5'
 
-        playCoreVersions = [
-                core      : "1.8.2",
-                corektx  : "1.8.1"
-        ]
-
-        kotlinX = [
-                coroutinesCore    : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlinCoroutineVersion",
-                coroutinesAndroid : "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinCoroutineVersion"
-        ]
-
-        google = [
-                gson              : "com.google.code.gson:gson:$gsonVersion",
-                recyclerView      : "androidx.recyclerview:recyclerview:$recyclerviewVersion",
-                appCompat         : "androidx.appcompat:appcompat:$appcompatVersion",
-                core              : "androidx.core:core-ktx:$coreVersion",
-                supportDesign     : "com.google.android.material:material:$materialVersion",
-                supportAnnotations: "androidx.annotation:annotation:$annotationVersion",
-                multidex          : "androidx.multidex:multidex:$multidexVersion",
-                installReferrer   : "com.android.installreferrer:installreferrer:$installReferrerVersion",
-                appindexing       : "com.google.firebase:firebase-appindexing:$playServiceVersions.appIndexing",
-                analytics         : "com.google.android.gms:play-services-analytics:$playServiceVersions.analytics",
-                fcm               : "com.google.firebase:firebase-messaging:$playServiceVersions.fcm",
-                firebaseCore      : "com.google.firebase:firebase-core:$playServiceVersions.firebase",
-                playServicesBase  : "com.google.android.gms:play-services-base:$playServiceVersions.base",
-                tagmanager        : "com.google.android.gms:play-services-tagmanager:$playServiceVersions.gtm",
-                location          : "com.google.android.gms:play-services-location:$playServiceVersions.location",
-                maps              : "com.google.android.gms:play-services-maps:$playServiceVersions.maps",
-                places            : "com.google.android.libraries.places:places:$playServiceVersions.placesCompat",
-                cardView          : "androidx.cardview:cardview:$cardviewVersion",
-                dagger            : "com.google.dagger:dagger:$daggerVersion",
-                daggerCompiler    : "com.google.dagger:dagger-compiler:$daggerVersion",
-                daggerAndroid     : "com.google.dagger:dagger-android:$daggerVersion",
-                daggerProcessor   : "com.google.dagger:dagger-android-processor:$daggerVersion",
-                daggerSupport     : "com.google.dagger:dagger-android-support:$daggerVersion",
-                serviceAuth       : "com.google.android.gms:play-services-auth:$playServiceVersions.serviceAuth",
-                constraintLayout  : "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion",
-                googleFlexBox     : "com.google.android:flexbox:$googleFlexBoxVersion",
-                firebasePerf      : "com.google.firebase:firebase-perf:$firebasePerfVersion",
-                crashlytics       : "com.google.firebase:firebase-crashlytics-ktx:$crashlyticsVersion",
-                remoteConfig      : "com.google.firebase:firebase-config-ktx:$playServiceVersions.remoteConfig",
-                playCore          : "com.google.android.play:core:$playCoreVersions.core",
-                playCoreKtx       : "com.google.android.play:core-ktx:$playCoreVersions.corektx",
-                activity          : "androidx.activity:activity-ktx:$activityVersion",
-                fragment          : "androidx.fragment:fragment-ktx:$fragmentVersion",
-                viewModel         : "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion",
-                liveData          : "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
-        ]
-
-        square = [
-                okhttp3              : "com.squareup.okhttp3:okhttp:$okHttp3Version",
-                okhttp3Urlconnection : "com.squareup.okhttp3:okhttp-urlconnection:$okHttp3Version",
-                okhttp3LogIntercep   : "com.squareup.okhttp3:logging-interceptor:$okHttp3Version",
-                retrofit2            : "com.squareup.retrofit2:retrofit:$retrofit2Version",
-                retrofitGson         : "com.squareup.retrofit2:converter-gson:$retrofit2Version"
-        ]
-
-        facebook = [
-                fresco       : "com.facebook.fresco:fresco:$frescoVersion",
-                frescoWebp   : "com.facebook.fresco:webpsupport:$frescoVersion",
-                frescoGif    : "com.facebook.fresco:animated-gif:$frescoVersion",
-                fbLogin      : "com.facebook.android:facebook-login:$facebookSdkVersion",
-                fbCore       : "com.facebook.android:facebook-core:$facebookSdkVersion",
-                shimmer      : "com.facebook.shimmer:shimmer:$facebookShimmer",
-                webpAnimated : "com.facebook.fresco:animated-webp:$frescoVersion"
-        ]
-
-        libs = [
-                adjust             : "com.adjust.sdk:adjust-android:$adjustSdkVersion",
-                butterknife        : "com.jakewharton:butterknife:$butterknifeVersion",
-                butterknifeCompiler: "com.jakewharton:butterknife-compiler:$butterknifeVersion",
-                awesomeValidation  : "com.basgeekball:awesome-validation:$awesomeValidationVersion",
-                stripe             : "com.stripe:stripe-android:$stripeVersion",
-                jodaTime           : "net.danlew:android.joda:$jodaTimeVersion",
-                loaderView         : "com.elyeproj.libraries:loaderviewlibrary:$loaderViewVersion",
-                countryCodePicker  : "com.hbb20:ccp:$countryCodePickerVersion",
-                cleverTap          : "com.clevertap.android:clevertap-android-sdk:$cleverTapVersion"
-        ]
-
-        kotlin = [
-                stdlib : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-        ]
-
-        test = [
-                junit              : "androidx.test.ext:junit:$junitVersion",
-                hamcrestIntegration: "org.hamcrest:hamcrest-integration:$hamcrestVersion",
-                hamcrestCore       : "org.hamcrest:hamcrest-core:$hamcrestVersion",
-                hamcrestLibrary    : "org.hamcrest:hamcrest-library:$hamcrestVersion",
-                robolectric        : "org.robolectric:robolectric:$robolectricVersion",
-                robolectricMultidex: "org.robolectric:shadows-multidex:$robolectricVersion",
-                robolectricMaps    : "org.robolectric:shadows-maps:$robolectricVersion",
-                mockito            : "org.mockito:mockito-core:$mockitoVersion",
-                robotium           : "com.jayway.android.robotium:robotium-solo:$robotiumVersion",
-                espresso           : "androidx.test.espresso:espresso-core:$espressoVersion",
-                espressoContrib    : "androidx.test.espresso:espresso-contrib:$espressoVersion",
-                testRunner         : "androidx.test:runner:$supportTestVersion",
-                testRulles         : "androidx.test:rules:$supportTestVersion",
-        ]
+        androidTestVersion = '1.3.0'
     }
 
     repositories {
