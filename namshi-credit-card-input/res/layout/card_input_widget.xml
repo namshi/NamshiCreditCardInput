@@ -3,7 +3,7 @@
        xmlns:app="http://schemas.android.com/apk/res-auto"
        xmlns:tools="http://schemas.android.com/tools">
 
-    <com.namshicardinput.android.view.CardBrandView
+    <com.namshi.cardinput.view.CardBrandView
         android:id="@+id/card_brand_view"
         android:layout_width="@dimen/card_brand_view_width"
         android:layout_height="@dimen/card_brand_view_height"
@@ -39,7 +39,7 @@
             android:accessibilityLiveRegion="polite"
             app:hintEnabled="false"
             style="@style/Stripe.CardInputWidget.TextInputLayout">
-            <com.namshicardinput.android.view.CardNumberEditText
+            <com.namshi.cardinput.view.CardNumberEditText
                 android:id="@+id/card_number_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
             android:accessibilityLiveRegion="polite"
             app:hintEnabled="false"
             style="@style/Stripe.CardInputWidget.TextInputLayout">
-            <com.namshicardinput.android.view.ExpiryDateEditText
+            <com.namshi.cardinput.view.ExpiryDateEditText
                 android:id="@+id/expiry_date_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
             android:accessibilityLiveRegion="polite"
             app:hintEnabled="false"
             style="@style/Stripe.CardInputWidget.TextInputLayout">
-            <com.namshicardinput.android.view.CvcEditText
+            <com.namshi.cardinput.view.CvcEditText
                 android:id="@+id/cvc_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

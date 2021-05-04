@@ -1,0 +1,23 @@
+package com.namshi.cardinput.cards
+
+import com.namshi.cardinput.model.AccountRange
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flowOf
+
+/**
+ * A [CardAccountRangeRepository] that simulates existing card account range lookup logic by only
+ * using a local, static source.
+ */
+internal class LegacyCardAccountRangeRepository(
+    private val staticCardAccountRangeSource: CardAccountRangeSource
+) : CardAccountRangeRepository {
+    override suspend fun getAccountRange(
+        cardNumber: CardNumber.Unvalidated
+    ): AccountRange? {
+        return cardNumber.bin?.let {
+            staticCardAccountRangeSource.getAccountRange(cardNumber)
+        }
+    }
+
+    override val loading: Flow<Boolean> = flowOf(false)
+}

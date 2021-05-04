@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.namshicardinput.android"
+    package="com.namshi.cardinput"
     android:versionCode="109"
     android:versionName="16.0.0">
 
