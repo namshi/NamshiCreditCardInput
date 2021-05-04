@@ -1,7 +1,7 @@
 package com.namshi.cardinput.cards
 
 import android.os.Parcelable
-import kotlinx.android.parcel.Parcelize
+import kotlinx.parcelize.Parcelize
 
 @Parcelize
 internal data class Bin internal constructor(

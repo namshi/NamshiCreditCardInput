@@ -2,7 +2,7 @@ package com.namshi.cardinput.model
 
 import android.os.Parcelable
 import com.namshi.cardinput.cards.CardNumber
-import kotlinx.android.parcel.Parcelize
+import kotlinx.parcelize.Parcelize
 
 @Parcelize
 internal data class BinRange(
