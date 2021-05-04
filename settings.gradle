@@ -1,1 +1,2 @@
-include ':sample', ':namshi-credit-card-input'
+include ':sample'
+include ':namshi-credit-card-input'
