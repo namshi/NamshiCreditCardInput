@@ -9,8 +9,8 @@ package com.namshi.cardinput.view
  * it will be acting.
  */
 internal class BackUpFieldDeleteListener(
-    private val backUpTarget: StripeEditText
-) : StripeEditText.DeleteEmptyListener {
+    private val backUpTarget: NamshiEditText
+) : NamshiEditText.DeleteEmptyListener {
 
     override fun onDeleteEmpty() {
         val fieldText = backUpTarget.text?.toString() ?: ""

@@ -9,8 +9,7 @@ interface CardInputListener {
     enum class FocusField {
         CardNumber,
         ExpiryDate,
-        Cvc,
-        PostalCode
+        Cvc
     }
 
     /**

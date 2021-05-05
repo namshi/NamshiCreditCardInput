@@ -2,7 +2,6 @@ package com.namshi.cardinput.view
 
 import android.content.Context
 import android.content.res.ColorStateList
-import android.text.Editable
 import android.util.AttributeSet
 import android.view.KeyEvent
 import android.view.accessibility.AccessibilityNodeInfo
@@ -12,6 +11,7 @@ import android.view.inputmethod.InputConnectionWrapper
 import androidx.annotation.ColorInt
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
+import androidx.core.widget.doAfterTextChanged
 import com.google.android.material.textfield.TextInputEditText
 import com.namshi.cardinput.R
 import kotlinx.coroutines.CoroutineScope
@@ -29,7 +29,7 @@ import kotlin.coroutines.CoroutineContext
  * but we listen here for hardware key presses, older Android soft keyboard delete presses,
  * and modern Google Keyboard delete key presses.
  */
-open class StripeEditText @JvmOverloads constructor(
+open class NamshiEditText @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = androidx.appcompat.R.attr.editTextStyle,
@@ -141,7 +141,7 @@ open class StripeEditText @JvmOverloads constructor(
     }
 
     /**
-     * Sets the error text color on this [StripeEditText].
+     * Sets the error text color on this [NamshiEditText].
      *
      * @param errorColor a [ColorInt]
      */
@@ -203,24 +203,20 @@ open class StripeEditText @JvmOverloads constructor(
         cachedColorStateList = textColors
         defaultErrorColor = ContextCompat.getColor(
             context,
-            if (StripeColorUtils.isColorDark(textColors.defaultColor)) {
+            if (ColorUtils.isColorDark(textColors.defaultColor)) {
                 // Note: if the _text_ color is dark, then this is a
                 // light theme, and vice-versa.
-                R.color.stripe_error_text_light_theme
+                R.color.error_text_light_theme
             } else {
-                R.color.stripe_error_text_dark_theme
+                R.color.error_text_dark_theme
             }
         )
     }
 
     private fun listenForTextChanges() {
-        addTextChangedListener(
-            object : StripeTextWatcher() {
-                override fun afterTextChanged(s: Editable?) {
-                    afterTextChangedListener?.onTextChanged(s?.toString().orEmpty())
-                }
-            }
-        )
+        doAfterTextChanged {
+            afterTextChangedListener?.onTextChanged(it?.toString().orEmpty())
+        }
     }
 
     private fun listenForDeleteEmpty() {

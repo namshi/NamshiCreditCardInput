@@ -18,7 +18,7 @@ internal class CardWidgetProgressView @JvmOverloads constructor(
 ) : FrameLayout(context, attrs, defStyleAttr) {
     private val fadeIn = AnimationUtils.loadAnimation(
         context,
-        R.anim.stripe_card_widget_progress_fade_in
+        R.anim.card_widget_progress_fade_in
     ).also {
         it.setAnimationListener(
             object : Animation.AnimationListener {
@@ -37,7 +37,7 @@ internal class CardWidgetProgressView @JvmOverloads constructor(
 
     private val fadeOut = AnimationUtils.loadAnimation(
         context,
-        R.anim.stripe_card_widget_progress_fade_out
+        R.anim.card_widget_progress_fade_out
     ).also {
         it.setAnimationListener(
             object : Animation.AnimationListener {
@@ -61,7 +61,7 @@ internal class CardWidgetProgressView @JvmOverloads constructor(
             this
         )
 
-        setBackgroundResource(R.drawable.stripe_card_progress_background)
+        setBackgroundResource(R.drawable.card_progress_background)
         clipToOutline = true
         visibility = View.INVISIBLE
     }
@@ -69,7 +69,7 @@ internal class CardWidgetProgressView @JvmOverloads constructor(
     override fun onAttachedToWindow() {
         super.onAttachedToWindow()
 
-        val size = context.resources.getDimensionPixelSize(R.dimen.stripe_card_widget_progress_size)
+        val size = context.resources.getDimensionPixelSize(R.dimen.card_widget_progress_size)
         updateLayoutParams {
             width = size
             height = size

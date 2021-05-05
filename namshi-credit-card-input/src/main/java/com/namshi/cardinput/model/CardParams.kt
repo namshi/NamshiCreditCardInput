@@ -2,16 +2,11 @@ package com.namshi.cardinput.model
 
 import kotlinx.parcelize.Parcelize
 
-/**
- * [Create a card token](https://stripe.com/docs/api/tokens/create_card)
- */
 @Parcelize
 data class CardParams internal constructor(
     private val loggingTokens: Set<String> = emptySet(),
 
     /**
-     * [card.number](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-number)
-     *
      * Required
      *
      * The card number, as a string without any separators.
@@ -19,8 +14,6 @@ data class CardParams internal constructor(
     internal var number: String,
 
     /**
-     * [card.exp_month](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-exp_month)
-     *
      * Required
      *
      * Two-digit number representing the card's expiration month.
@@ -28,8 +21,6 @@ data class CardParams internal constructor(
     internal var expMonth: Int,
 
     /**
-     * [card.exp_year](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-exp_year)
-     *
      * Required
      *
      * Two- or four-digit number representing the card's expiration year.
@@ -37,8 +28,6 @@ data class CardParams internal constructor(
     internal var expYear: Int,
 
     /**
-     * [card.cvc](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-cvc)
-     *
      * Usually required
      *
      * Card security code. Highly recommended to always include this value, but it's required only
@@ -47,8 +36,6 @@ data class CardParams internal constructor(
     internal var cvc: String? = null,
 
     /**
-     * [card.name](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-name)
-     *
      * Optional
      *
      * Cardholder's full name.
@@ -56,8 +43,6 @@ data class CardParams internal constructor(
     var name: String? = null,
 
     /**
-     * [card.currency](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-currency)
-     *
      * Optional - Custom Connect Only
      *
      * Required in order to add the card to an account; in all other cases, this parameter is
@@ -68,8 +53,6 @@ data class CardParams internal constructor(
     var currency: String? = null,
 
     /**
-     * [card.metadata](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-metadata)
-     *
      * Optional
      *
      * A set of key-value pairs that you can attach to a card object. This can be useful for
@@ -81,8 +64,6 @@ data class CardParams internal constructor(
     @JvmOverloads
     internal constructor(
         /**
-         * [card.number](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-number)
-         *
          * Required
          *
          * The card number, as a string without any separators.
@@ -90,8 +71,6 @@ data class CardParams internal constructor(
         number: String,
 
         /**
-         * [card.exp_month](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-exp_month)
-         *
          * Required
          *
          * Two-digit number representing the card's expiration month.
@@ -99,8 +78,6 @@ data class CardParams internal constructor(
         expMonth: Int,
 
         /**
-         * [card.exp_year](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-exp_year)
-         *
          * Required
          *
          * Two- or four-digit number representing the card's expiration year.
@@ -108,8 +85,6 @@ data class CardParams internal constructor(
         expYear: Int,
 
         /**
-         * [card.cvc](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-cvc)
-         *
          * Usually required
          *
          * Card security code. Highly recommended to always include this value, but it's required only
@@ -118,8 +93,6 @@ data class CardParams internal constructor(
         cvc: String? = null,
 
         /**
-         * [card.name](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-name)
-         *
          * Optional
          *
          * Cardholder's full name.
@@ -127,8 +100,6 @@ data class CardParams internal constructor(
         name: String? = null,
 
         /**
-         * [card.currency](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-currency)
-         *
          * Optional - Custom Connect Only
          *
          * Required in order to add the card to an account; in all other cases, this parameter is
@@ -139,8 +110,6 @@ data class CardParams internal constructor(
         currency: String? = null,
 
         /**
-         * [card.metadata](https://stripe.com/docs/api/tokens/create_card#create_card_token-card-metadata)
-         *
          * Optional
          *
          * A set of key-value pairs that you can attach to a card object. This can be useful for

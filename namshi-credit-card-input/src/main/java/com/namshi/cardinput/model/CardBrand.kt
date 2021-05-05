@@ -12,8 +12,8 @@ enum class CardBrand(
         val code: String,
         val displayName: String,
         @DrawableRes val icon: Int,
-        @DrawableRes val cvcIcon: Int = R.drawable.stripe_ic_cvc,
-        @DrawableRes val errorIcon: Int = R.drawable.stripe_ic_error,
+        @DrawableRes val cvcIcon: Int = R.drawable.ic_cvc,
+        @DrawableRes val errorIcon: Int = R.drawable.ic_error,
 
         /**
      * Accepted CVC lengths
@@ -60,9 +60,9 @@ enum class CardBrand(
     AmericanExpress(
         "amex",
         "American Express",
-        R.drawable.stripe_ic_amex,
-        cvcIcon = R.drawable.stripe_ic_cvc_amex,
-        errorIcon = R.drawable.stripe_ic_error_amex,
+        R.drawable.ic_amex,
+        cvcIcon = R.drawable.ic_cvc_amex,
+        errorIcon = R.drawable.ic_error_amex,
         cvcLength = setOf(3, 4),
         defaultMaxLength = 15,
         pattern = Pattern.compile("^(34|37)[0-9]*$"),
@@ -72,7 +72,7 @@ enum class CardBrand(
     Discover(
         "discover",
         "Discover",
-        R.drawable.stripe_ic_discover,
+        R.drawable.ic_discover,
         pattern = Pattern.compile("^(60|64|65)[0-9]*$")
     ),
 
@@ -84,7 +84,7 @@ enum class CardBrand(
     JCB(
         "jcb",
         "JCB",
-        R.drawable.stripe_ic_jcb,
+        R.drawable.ic_jcb,
         pattern = Pattern.compile("^(352[89]|35[3-8][0-9])[0-9]*$"),
         partialPatterns = mapOf(
             2 to Pattern.compile("^(35)$"),
@@ -101,7 +101,7 @@ enum class CardBrand(
     DinersClub(
         "diners",
         "Diners Club",
-        R.drawable.stripe_ic_diners,
+        R.drawable.ic_diners,
         defaultMaxLength = 16,
         pattern = Pattern.compile("^(36|30|38|39)[0-9]*$"),
         variantMaxLength = mapOf(
@@ -115,14 +115,14 @@ enum class CardBrand(
     Visa(
         "visa",
         "Visa",
-        R.drawable.stripe_ic_visa,
+        R.drawable.ic_visa,
         pattern = Pattern.compile("^(4)[0-9]*$")
     ),
 
     MasterCard(
         "mastercard",
         "Mastercard",
-        R.drawable.stripe_ic_mastercard,
+        R.drawable.ic_mastercard,
         pattern = Pattern.compile("^(2221|2222|2223|2224|2225|2226|2227|2228|2229|222|223|224|225|226|227|228|229|23|24|25|26|270|271|2720|50|51|52|53|54|55|56|57|58|59|67)[0-9]*$"),
         partialPatterns = mapOf(
             2 to Pattern.compile("^(22|23|24|25|26|27|50|51|52|53|54|55|56|57|58|59|67)$")
@@ -132,14 +132,14 @@ enum class CardBrand(
     UnionPay(
         "unionpay",
         "UnionPay",
-        R.drawable.stripe_ic_unionpay,
+        R.drawable.ic_unionpay,
         pattern = Pattern.compile("^(62|81)[0-9]*$")
     ),
 
     Unknown(
         "unknown",
         "Unknown",
-        R.drawable.stripe_ic_unknown,
+        R.drawable.ic_unknown,
         cvcLength = setOf(3, 4)
     );
 

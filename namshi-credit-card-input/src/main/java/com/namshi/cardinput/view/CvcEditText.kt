@@ -2,25 +2,25 @@ package com.namshi.cardinput.view
 
 import android.content.Context
 import android.os.Build
-import android.text.Editable
 import android.text.InputFilter
 import android.text.InputType
 import android.text.method.DigitsKeyListener
 import android.util.AttributeSet
 import android.view.View
+import androidx.core.widget.doAfterTextChanged
 import com.google.android.material.textfield.TextInputLayout
 import com.namshi.cardinput.R
 import com.namshi.cardinput.cards.Cvc
 import com.namshi.cardinput.model.CardBrand
 
 /**
- * A [StripeEditText] for CVC input.
+ * A [NamshiEditText] for CVC input.
  */
 class CvcEditText @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = androidx.appcompat.R.attr.editTextStyle
-) : StripeEditText(context, attrs, defStyleAttr) {
+) : NamshiEditText(context, attrs, defStyleAttr) {
 
     private val unvalidatedCvc: Cvc.Unvalidated
         get() {
@@ -51,16 +51,13 @@ class CvcEditText @JvmOverloads constructor(
             setAutofillHints(View.AUTOFILL_HINT_CREDIT_CARD_SECURITY_CODE)
         }
 
-        addTextChangedListener(
-            object : StripeTextWatcher() {
-                override fun afterTextChanged(s: Editable?) {
-                    shouldShowError = false
-                    if (cardBrand.isMaxCvc(unvalidatedCvc.normalized)) {
-                        completionCallback()
-                    }
-                }
+        doAfterTextChanged {
+            shouldShowError = false
+            if (cardBrand.isMaxCvc(unvalidatedCvc.normalized)) {
+                completionCallback()
             }
-        )
+        }
+
     }
 
     override val accessibilityText: String?

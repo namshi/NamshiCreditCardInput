@@ -5,6 +5,7 @@ import android.os.Build
 import android.text.Editable
 import android.text.InputFilter
 import android.text.InputType
+import android.text.TextWatcher
 import android.util.AttributeSet
 import android.view.View
 import androidx.annotation.VisibleForTesting
@@ -26,19 +27,18 @@ import kotlinx.coroutines.withContext
 import kotlin.coroutines.CoroutineContext
 
 /**
- * A [StripeEditText] that handles spacing out the digits of a credit card.
+ * A [CardNumberEditText] that handles spacing out the digits of a credit card.
  */
 class CardNumberEditText internal constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = androidx.appcompat.R.attr.editTextStyle,
 
-    // TODO(mshafrir-stripe): make immutable after `CardWidgetViewModel` is integrated in `CardWidget` subclasses
     internal var workContext: CoroutineContext,
 
     private val cardAccountRangeRepository: CardAccountRangeRepository,
     private val staticCardAccountRanges: StaticCardAccountRanges = DefaultStaticCardAccountRanges()
-) : StripeEditText(context, attrs, defStyleAttr) {
+) : NamshiEditText(context, attrs, defStyleAttr) {
 
     @JvmOverloads
     constructor(
@@ -158,7 +158,7 @@ class CardNumberEditText internal constructor(
         }
     }
 
-    override val accessibilityText: String?
+    override val accessibilityText: String
         get() {
             return resources.getString(R.string.acc_label_card_number_node, text)
         }
@@ -260,7 +260,7 @@ class CardNumberEditText internal constructor(
             accountRange?.binRange?.matches(cardNumber) == false
     }
 
-    private inner class CardNumberTextWatcher : StripeTextWatcher() {
+    private inner class CardNumberTextWatcher : TextWatcher {
         private var ignoreChanges = false
         private var latestChangeStart: Int = 0
         private var latestInsertionSize: Int = 0

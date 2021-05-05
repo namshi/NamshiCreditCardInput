@@ -3,6 +3,7 @@ package com.namshi.cardinput.view
 import android.content.Context
 import android.os.Build
 import android.text.Editable
+import android.text.TextWatcher
 import android.util.AttributeSet
 import android.view.View
 import android.widget.EditText
@@ -17,7 +18,7 @@ class ExpiryDateEditText @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = androidx.appcompat.R.attr.editTextStyle
-) : StripeEditText(context, attrs, defStyleAttr) {
+) : NamshiEditText(context, attrs, defStyleAttr) {
 
     init {
         setErrorMessage(resources.getString(R.string.invalid_expiry_year))
@@ -69,7 +70,7 @@ class ExpiryDateEditText @JvmOverloads constructor(
 
     private fun listenForTextChanges() {
         addTextChangedListener(
-            object : StripeTextWatcher() {
+            object : TextWatcher {
                 private var ignoreChanges = false
                 private var latestChangeStart: Int = 0
                 private var latestInsertionSize: Int = 0

@@ -7,9 +7,9 @@
         android:id="@+id/card_brand_view"
         android:layout_width="@dimen/card_brand_view_width"
         android:layout_height="@dimen/card_brand_view_height"
-        android:layout_marginTop="@dimen/stripe_card_icon_padding"
-        android:layout_marginBottom="@dimen/stripe_card_icon_padding"
-        android:layout_marginEnd="@dimen/stripe_card_icon_padding"
+        android:layout_marginTop="@dimen/card_icon_padding"
+        android:layout_marginBottom="@dimen/card_icon_padding"
+        android:layout_marginEnd="@dimen/card_icon_padding"
         android:visibility="gone"
         />
 
@@ -38,7 +38,7 @@
             android:contentDescription="@string/acc_label_card_number"
             android:accessibilityLiveRegion="polite"
             app:hintEnabled="false"
-            style="@style/Stripe.CardInputWidget.TextInputLayout">
+            style="@style/CardInputWidget.TextInputLayout">
             <com.namshi.cardinput.view.CardNumberEditText
                 android:id="@+id/card_number_edit_text"
                 android:layout_width="match_parent"
@@ -46,7 +46,7 @@
                 android:background="@android:color/transparent"
                 android:imeOptions="actionNext"
                 android:hint="@string/card_number_hint"
-                style="@style/Stripe.CardInputWidget.EditText"
+                style="@style/CardInputWidget.EditText"
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -55,7 +55,7 @@
             android:labelFor="@id/expiry_date_edit_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/stripe_card_expiry_initial_margin"
+            android:layout_marginStart="@dimen/card_expiry_initial_margin"
             android:layout_gravity="start"
             android:visibility="visible"
             android:background="@android:color/transparent"
@@ -70,7 +70,7 @@
             android:contentDescription="@string/acc_label_expiry_date"
             android:accessibilityLiveRegion="polite"
             app:hintEnabled="false"
-            style="@style/Stripe.CardInputWidget.TextInputLayout">
+            style="@style/CardInputWidget.TextInputLayout">
             <com.namshi.cardinput.view.ExpiryDateEditText
                 android:id="@+id/expiry_date_edit_text"
                 android:layout_width="match_parent"
@@ -80,7 +80,7 @@
                 android:inputType="date"
                 android:maxLength="5"
                 android:hint="@string/expiry_date_hint"
-                style="@style/Stripe.CardInputWidget.EditText"
+                style="@style/CardInputWidget.EditText"
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -89,7 +89,7 @@
             android:labelFor="@id/cvc_edit_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/stripe_card_cvc_initial_margin"
+            android:layout_marginStart="@dimen/card_cvc_initial_margin"
             android:layout_gravity="start"
             android:background="@android:color/transparent"
             tools:ignore="UnusedAttribute"
@@ -99,14 +99,14 @@
             android:contentDescription="@string/cvc_number_hint"
             android:accessibilityLiveRegion="polite"
             app:hintEnabled="false"
-            style="@style/Stripe.CardInputWidget.TextInputLayout">
+            style="@style/CardInputWidget.TextInputLayout">
             <com.namshi.cardinput.view.CvcEditText
                 android:id="@+id/cvc_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:imeOptions="actionDone"
-                style="@style/Stripe.CardInputWidget.EditText"
+                style="@style/CardInputWidget.EditText"
                 />
         </com.google.android.material.textfield.TextInputLayout>
 

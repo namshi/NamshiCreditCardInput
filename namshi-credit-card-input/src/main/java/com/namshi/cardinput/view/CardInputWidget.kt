@@ -39,7 +39,7 @@ import com.namshi.cardinput.model.CardParams
  * [CardInputWidget] is instantiated.
  *
  * The individual `EditText` views of this widget can be styled by defining a style
- * `Stripe.CardInputWidget.EditText` that extends `Stripe.Base.CardInputWidget.EditText`.
+ * `CardInputWidget.EditText` that extends `Base.CardInputWidget.EditText`.
  */
 class CardInputWidget @JvmOverloads constructor(
     context: Context,
@@ -71,13 +71,13 @@ class CardInputWidget @JvmOverloads constructor(
 
     private var cardInputListener: CardInputListener? = null
     private var cardValidCallback: CardValidCallback? = null
-    private val cardValidTextWatcher = object : StripeTextWatcher() {
+    private val cardValidTextWatcher = object : NamshiTextWatcher() {
         override fun afterTextChanged(s: Editable?) {
             super.afterTextChanged(s)
             cardValidCallback?.onInputChanged(invalidFields.isEmpty(), invalidFields)
         }
     }
-    private val inputChangeTextWatcher = object : StripeTextWatcher() {
+    private val inputChangeTextWatcher = object : NamshiTextWatcher() {
         override fun afterTextChanged(s: Editable?) {
             super.afterTextChanged(s)
             shouldShowErrorIcon = false
@@ -132,14 +132,14 @@ class CardInputWidget @JvmOverloads constructor(
 
     @VisibleForTesting
     @JvmSynthetic
-    internal val requiredFields: List<StripeEditText>
-    private val allFields: List<StripeEditText>
+    internal val requiredFields: List<NamshiEditText>
+    private val allFields: List<NamshiEditText>
 
     /**
-     * The [StripeEditText] fields that are currently enabled and active in the UI.
+     * The [NamshiEditText] fields that are currently enabled and active in the UI.
      */
     @VisibleForTesting
-    internal val currentFields: List<StripeEditText>
+    internal val currentFields: List<NamshiEditText>
         @JvmSynthetic
         get() {
             return requiredFields
@@ -220,7 +220,7 @@ class CardInputWidget @JvmOverloads constructor(
         }
 
         orientation = HORIZONTAL
-        minimumWidth = resources.getDimensionPixelSize(R.dimen.stripe_card_widget_min_width)
+        minimumWidth = resources.getDimensionPixelSize(R.dimen.card_widget_min_width)
 
         frameWidthSupplier = { containerLayout.width }
 
@@ -475,7 +475,7 @@ class CardInputWidget @JvmOverloads constructor(
         }
     }
 
-    private fun getDesiredWidthInPixels(text: String, editText: StripeEditText): Int {
+    private fun getDesiredWidthInPixels(text: String, editText: NamshiEditText): Int {
         return layoutWidthCalculator.calculate(text, editText.paint)
     }
 
@@ -921,6 +921,6 @@ class CardInputWidget @JvmOverloads constructor(
         // This value is used to ensure that onSaveInstanceState is called
         // in the event that the user doesn't give this control an ID.
         @IdRes
-        private val DEFAULT_READER_ID = R.id.stripe_default_reader_id
+        private val DEFAULT_READER_ID = R.id.default_reader_id
     }
 }
