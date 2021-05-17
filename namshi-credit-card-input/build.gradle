@@ -3,6 +3,7 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-parcelize'
     id 'checkstyle'
+    id 'com.vanniktech.maven.publish'
 }
 
 assemble.dependsOn('lint')
